@@ -1,0 +1,371 @@
+.container {
+    max-width: 1000px; 
+     margin: 0 auto;
+}
+
+.header__all {
+    max-width: 1400px; 
+    margin: 0 auto;
+}
+.header {
+    background: #dcdcdc;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px; 
+
+}
+.header__logo {
+    padding-left: 10px;
+    padding-top: 45px; 
+}
+.contacts { 
+    margin-right: 15px;  
+}
+.header__tel {
+    font-size: 40px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+ 
+}
+.header__text {
+    margin-left: 85px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    border-bottom: 2px dashed #767676;
+}
+ul>li {
+    list-style-type: none;
+}
+
+.menu {
+    background: #3b3b3b;
+    padding: 8px 0;
+    margin-top: 60px;
+
+}
+
+.menu__list {
+    display: flex;  
+    padding-left: 242px;
+}
+.menu>ul>li>a { 
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    text-decoration: none; 
+    color: #fff;
+    letter-spacing: 0.021em;
+}
+.menu__list li::after {
+    padding-left: 13px; 
+    content: ' \007C'; 
+    padding-right: 14px;
+    color: #fff;
+    font-size: 30px;
+}
+.menu__list li:last-child::after {
+    content: '';
+}
+.active {
+    text-decoration: underline;
+    color: #fff;
+}
+
+
+/*  content   */
+
+.content-all {
+   
+    max-width: 1400px; 
+    margin: 0 auto;
+    margin-bottom: 218px;
+    position: relative;
+}
+.breadcrumbs {
+    max-width: 1400px; 
+    margin: 0 auto;
+}
+.content__menu {
+    margin-left: -28px; 
+}
+.ul__menu {
+    display: flex;
+}
+.ul__menu li a{
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    color:  #8d8d8d;
+}
+
+.ul__menu li::after {
+    content: '/';
+    color:  #8d8d8d; 
+    margin: 0 10px;
+}
+.ul__menu li:last-child::after {
+    content: '';
+}
+
+.slider {
+    height: 390px;
+}
+
+
+
+.content {
+    display: flex;
+}
+
+.left-content {
+    width: 20%;
+    margin-left: -28px;
+    position: relative;
+}
+
+.left__icon {
+    position: absolute;
+    left: 65px;
+}
+
+.left-content .max {
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    padding-bottom: 16px;
+    margin-top: -5px;
+}
+.left-content .min {
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    padding-bottom: 12px;
+    margin-top: -12px;
+    margin-left: -18px;
+    list-style-type: disc;
+}
+
+.left__icon-text {
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: #444;
+    margin-left: -22px;
+    margin-top: -6px;
+}
+
+
+.right-content {
+    width: 80%;
+    margin-left: 35px;
+}
+.right-content__card {
+    display: flex;
+}
+.card {
+    width: 252px;
+    height: 380px;
+    background: #dcdcdc;
+    margin: 5px 8px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.card__img {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+.card__text {
+    position: absolute;
+    top: 225px; 
+    left: 15px;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+}
+.card__price {
+    position: absolute;
+    top: 332px; 
+    left: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+}
+.card__icon {
+     position: absolute;
+     left: 167px;
+    top: 5px;
+}
+
+.pagination {
+    display: flex; 
+    margin-left: 260px;
+    margin-top: 5px;
+}
+.pagination li {
+    margin: 10px;
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif; 
+}
+.pagination .bold {
+    font-size: 18px;
+}
+.line {
+    border-bottom: 1px solid #000;
+    margin-top: 51px;
+    margin-bottom: 9px;
+}
+.content__text {
+    width: 50%;
+    margin-right: 12px;
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif; 
+    letter-spacing: 0.02em;
+    line-height: 155%; 
+}
+
+
+/*  footer  */
+
+.footer-main {
+    max-width: 1400px; 
+    margin: 0 auto;
+    background: #777;
+    color: #fff; 
+
+}
+
+.footer {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 45px;
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 0.021em;
+    position: relative;
+}
+
+.footer-left {
+    width: 35%;
+    margin-left: 10px; 
+    line-height: 70%; 
+    margin-top: 12px;
+}
+.footer-middle {
+    width: 35%;
+    margin-left: 88px; 
+    line-height: 180%; 
+    text-decoration: underline;
+}
+.footer-right{ 
+    //position: absolute;
+    width: 30%; 
+    margin-left: 270px; 
+    line-height: 70%;
+    margin-top: 12px;
+}
+.footer__img {
+    position: absolute;
+    top: 48px;
+    left: 768px;
+}
+.underline {
+     text-decoration: underline;
+}
+
+
+/*  form   */
+
+
+
+.feedback {
+    
+    width: 468px;
+    height: 580px;
+    
+    z-index: 1001; 
+    position: absolute;
+
+    background: #fff; 
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+
+    //right: 719px; 
+    margin-top: -410px;
+    
+    margin-left: 25%;
+    margin-right: 20%;
+    display: none;
+
+} 
+
+
+.feedback__title h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 30px;
+
+}
+.feedback p {
+    font-size: 14px;
+}
+.feedback__name .name {
+    margin-bottom: 4px;
+    line-height: 150%; 
+}
+.feedback__tel p {
+    margin-bottom: 4px;
+    line-height: 150%; 
+}
+.feedback__email p {
+    margin-bottom: 4px;
+    line-height: 150%; 
+}
+.email__input {
+    border: 2px solid #dc7f7f;
+    color: #dc7f7f; 
+    padding-left: 10px;
+    font-style: italic;
+    font-size: 14px; 
+}
+.feedback__textarea p {
+    margin-bottom: 4px;
+    line-height: 168%; 
+}
+
+input {
+    width: 334px;
+    height: 35px;
+} 
+button {
+    background: #777; 
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 17.7px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+textarea {
+    width: 334px;
+    height: 133px;
+}
+.close {
+    font-size: 50px;
+    font-weight: 300;
+    background: #777;
+    color: #fff;
+    width: 30px;
+    height: 30px;  
+    line-height: 0.5;
+    cursor: pointer;
+    
+    position: absolute;
+    top: -31px;
+    left: 466px;
+}
+
+
+
